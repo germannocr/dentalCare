@@ -1,0 +1,252 @@
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, span, a {
+    font-family: 'Montserrat', sans-serif; /*mudar depois*/
+}
+
+/*================= NAVBAR =================*/
+.logo-img {
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    margin-left: 100px;
+    background: url("../img/dc-logo.jpg") no-repeat;
+    background-size: contain; 
+    color: transparent;
+}
+
+.nav {
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    float: right;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 0.8em;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #14c1f4;
+    transition: 0.5s ease;
+}
+
+/*================= MAIN =================*/
+
+.section-content {
+    width: 100%;
+    height: 500px;
+}
+
+.intro {
+    background-image: url("../img/home-img1.jpg");
+    background-size: cover;
+    border-bottom: 2px solid #339989;
+}
+
+
+.intro-subtitulo, .intro-btn, .intro-titulo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro-titulo,.intro-subtitulo {
+    text-align: center;
+}
+
+.intro-titulo {
+    text-align: center;
+    padding-top: 180px;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.intro-subtitulo {
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+.btn-agendamento {
+    font-size: 1em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    width: 30%;
+    height: 20px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.main {
+    text-align: center;
+}
+
+.main-welcome {
+    width: 75%;
+    margin: 50px auto;
+}
+
+.main-titulo, .time-titulo {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.main-descricao, .time-descricao {
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+.main-content {
+    background-color: #14c1f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 2px 5px rgba(20,193,244,0.32);
+    -moz-box-shadow: 0px 0px 2px 5px rgba(20,193,244,0.32);
+    box-shadow: 0px 0px 2px 5px rgba(20,193,244,0.32);
+} 
+
+.js .anime {
+	opacity: 0;
+	transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+	opacity: 1;
+	transform: translate3D(0px, 0px, 0px);
+	transition: 1s all ease;
+}
+
+
+.historia, .vantagem {
+    padding: 50px;
+}
+
+.vantagem {
+    background-color: #5ad1f4;
+}
+
+.titulo {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 30px 0 20px 0;
+}
+
+.descricao {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.time {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #F3F4F6;
+}
+
+.time-profissional {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.time-nome {
+    font-weight: bold;
+    padding: 20px 0 10px;
+}
+
+.time-papel {
+    color: #3CC0AC; /*Corrigir para uma cor mais escura*/
+}
+
+.time-card {
+    padding: 25px;
+    background-color: #fff;
+}
+
+.time-foto {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: zoomIn 1s;
+    animation: zoomIn .8s;
+    visibility: visible;
+}
+
+
+@keyframes zoomIn{
+    0%{
+        opacity:0;
+        transform: scale3d(.3, .3, .3);
+    }
+    50%{opacity:1}
+}
+
+
+.six-col {
+    width: 45%;
+}
+
+.agendamento {
+    text-align: center;
+    padding: 80px 0;
+    background-image: url(../img/agendamento-bg.jpg); 
+    background-size: cover;
+}
+
+.agendamento-titulo {    
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.agendamento-descricao {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/*Rodape*/
+.rodape {
+    text-align: left;
+    padding: 50px 0;
+    background-color: #F3F4F6;
+}
+
+.rodape-texto {
+    margin: 10px 0;
+    color: #000;
+}
+
+.logo-texto {
+    text-transform: lowercase;
+    font-size: 3em;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 25px;
+    color: #14c1f4; 
+}
