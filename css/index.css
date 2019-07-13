@@ -93,7 +93,7 @@ p, span, a {
     text-decoration: none;
     color: #fff;
     background-color: black;
-    width: 30%;
+    width: 20%;
     height: 20px;
     margin: 30px auto;
     padding: 10px;
@@ -250,3 +250,74 @@ p, span, a {
     margin-bottom: 25px;
     color: #14c1f4; 
 }
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+
+    .intro-titulo {
+        font-size: 2.5em;
+    }
+
+    .intro-subtitulo {
+        font-size: 1.5em;
+    }
+
+    .btn-agendamento {
+        width: 50%;
+    }
+
+    .intro-titulo {
+        font-size: 2.5em;
+    }
+
+    .main-content, .time-profissional {
+        flex-direction: column;
+    }
+   
+    .historia, .vantagem {
+        width: 75%;
+    }
+  
+
+    .time-card {
+        margin-bottom: 20px;
+    }
+
+    .agendamento-titulo {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+/* Larger than phablet */
+@media (min-width: 401px) and (max-width: 550px) {
+    .main-content, .time-profissional {
+        flex-direction: column;
+    }
+
+    .intro-titulo {
+        font-size: 2.5em;
+    }
+
+    .btn-agendamento {
+        width: 50%;
+    }
+
+    .historia, .vantagem {
+        width: 75%;
+    }
+
+    .time-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
