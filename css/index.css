@@ -375,4 +375,8 @@ p, span, a {
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1001px) {
+    .intro {
+        background-position: center center;
+    }
+}
