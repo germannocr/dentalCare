@@ -348,6 +348,10 @@ p, span, a {
 
 /* Larger than desktop */
 @media (min-width: 751px) and (max-width: 1000px) {    
+    .intro {
+        background-position: center center;
+    }
+    
     .btn-agendamento {
         width: 40%;
     }
