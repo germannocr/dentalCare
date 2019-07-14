@@ -347,8 +347,27 @@ p, span, a {
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {    
-    
+@media (min-width: 751px) and (max-width: 1000px) {    
+    .btn-agendamento {
+        width: 40%;
+    }
+
+    .main-content, .time-profissional {
+        flex-direction: column;
+    }
+
+    .vantagem, .historia {
+        width: 85%;
+    }
+
+    .time-card {
+        margin-bottom: 25px;
+    }
+
+    .agendamento-descricao {
+        width: 75%;
+        margin: 20px auto;
+    }
 }
 
 /* Larger than Desktop HD */
