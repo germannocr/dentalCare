@@ -311,13 +311,45 @@ p, span, a {
     .time-card {
         margin-bottom: 20px;
     }
+
+    .time-descricao, .agendamento-descricao, .agendamento-titulo {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .agendamento-titulo {
+        margin-bottom: 15px;
+    }
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 551px) and (max-width: 750px) {
+    .btn-agendamento {
+        width: 40%;
+    }
+
+    .main-content, .time-profissional {
+        flex-direction: column;
+    }
+
+    .vantagem, .historia {
+        width: 80%;
+    }
+
+    .time-card {
+        margin-bottom: 25px;
+    }
+
+    .agendamento-descricao {
+        width: 75%;
+        margin: 20px auto;
+    }
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {    
+    
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
