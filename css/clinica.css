@@ -1,0 +1,83 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, span, a {
+    font-family: 'Montserrat', sans-serif; /*mudar depois*/
+}
+
+
+/* =================== MAIN =================== */
+
+.main {
+    margin-top: 80px;
+    background-image: url("../img/clinica-bg.jpg");
+    background-size: cover;
+    border-bottom: 2px solid #339989;
+    height: 900px;
+    color: #F3F4F6;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.clinica-titulo {
+    font-size: 2em;
+}
+
+.clinica-subtitulo {
+    font-size: 1.2em;
+}
+
+.clinica-descricao {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.expertise, .trabalhos-sociais {
+    padding: 0px 15px;
+}
+
+.trabalhos-titulo, .expertise-titulo {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.trabalhos-descricao, .expertise-descricao {
+    text-align: justify;
+}
+
+.tratamentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.trat-card {
+    width: 30%;
+    margin: 40px 0;
+    text-align: justify;
+}
+
+.trat-titulo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.trat-titulo, .trat-descricao {
+    margin-left: 80px;
+}
+
+.trat-icon{
+    float: left;
+    margin-top: 30px;
+}
+
