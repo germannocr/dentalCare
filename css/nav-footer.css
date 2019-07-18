@@ -150,6 +150,12 @@
 /*MEDIA QUERIES */
 /* 48em = 768px */
 
+@media (max-width: 750px) {
+  .logo-img {
+      margin-left: 20px;
+  }
+}
+
 @media (min-width: 768px) {
   .nav li {
     float: left;

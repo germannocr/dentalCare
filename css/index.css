@@ -266,11 +266,7 @@ p, span, a {
     }
 }
 
-@media (max-width: 750px) {
-    .logo-img {
-        margin-left: 20px;
-    }
-}
+
 
 /* Larger than tablet */
 @media (min-width: 551px) and (max-width: 750px) {    
