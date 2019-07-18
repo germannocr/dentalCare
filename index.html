@@ -2,6 +2,7 @@
   <head>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
+    <link href="css/nav-footer.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/index.js" rel="script"></script>
 
@@ -24,16 +25,15 @@
         <a class="logo" href="index.html">
           <span class="logo-img">Dental Care</span>
         </a>
-
-        <ul class="menu grow ul-menu">
-          <li class="close">&times;</li>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
           <li><a class="nav-link" href="#">Home</a></li>
           <li><a class="nav-link" href="#">A Clínica</a></li>
           <li><a class="nav-link" href="#">Contato</a></li>
         </ul>
-        
-        <!-- Botao mobile-->
-        <span class="mobile-btn">&#x2261;</span>
       </nav>
     </header>
     <section class="intro section-content">
@@ -114,7 +114,7 @@
             <img
               src="img/dentista1.jpg"
               alt="Dentista rico e branco"
-              class="time-foto"
+              class="time-foto zoomIn"
             />
             <p class="time-nome">Nome do dentista</p>
             <p class="time-papel">Papel dele</p>
@@ -123,7 +123,7 @@
             <img
               src="img/dentista1.jpg"
               alt="Dentista rico e branco"
-              class="time-foto"
+              class="time-foto zoomIn"
             />
             <p class="time-nome">Nome do dentista</p>
             <p class="time-papel">Papel dele</p>
@@ -132,7 +132,7 @@
             <img
               src="img/dentista1.jpg"
               alt="Dentista rico e branco"
-              class="time-foto"
+              class="time-foto zoomIn"
             />
             <p class="time-nome">Nome do dentista</p>
             <p class="time-papel">Papel dele</p>
@@ -142,16 +142,14 @@
     </section>
     <section class="agendamento">
       <div class="agendamento-content">
-        <p class="agendamento-titulo">
+        <p class="agendamento-titulo anime">
           Comece a cuidar melhor da saúde de sua boca!
         </p>
-        <p class="agendamento-descricao">
+        <p class="agendamento-descricao anime">
           Não perca mais tempo, marque sua consulta e tenha seu diagnóstico
           rápido.
         </p>
-        <a class="btn-agendamento"
-          >Agende sua consulta!</a
-        >
+        <a class="btn-agendamento zoomIn">Agende sua consulta!</a>
       </div>
     </section>
     <footer class="rodape">

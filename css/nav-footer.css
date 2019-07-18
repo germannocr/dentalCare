@@ -1,0 +1,169 @@
+
+/*================= NAVBAR =================*/
+
+.logo-img {
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+    margin-top: 5px; 
+    margin-left: 100px;
+    background: url("../img/dc-logo.jpg") no-repeat;
+    background-size: contain; 
+    color: transparent;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 5px 4px -1px rgba(0,0,0,0.25);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #FCFEF1;
+}
+
+
+
+.menu {
+  margin: -5px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #FCFEF1;
+}
+
+.nav-link, .nav-link:visited {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #14c1f4;
+  transition: 0.5s ease;
+}
+
+/* menu */
+
+.nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.nav .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  position: relative;
+  user-select: none;
+}
+
+.nav .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.nav .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.nav .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.nav .menu-btn {
+  display: none;
+}
+
+.nav .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+    
+
+/*Rodape*/
+.rodape {
+    text-align: left;
+    padding: 50px 0;
+    background-color: #F3F4F6;
+}
+
+.rodape-texto {
+    margin: 10px 0;
+    color: #000;
+}
+
+.logo-texto {
+    text-transform: lowercase;
+    font-size: 3em;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 25px;
+    color: #14c1f4; 
+}
+
+
+/*MEDIA QUERIES */
+/* 48em = 768px */
+
+@media (min-width: 768px) {
+  .nav li {
+    float: left;
+  }
+  .nav-link {
+    padding: 20px 30px;
+  }
+  .nav .menu {
+    padding: 10px;
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .nav .menu-icon {
+    display: none;
+  }
+}

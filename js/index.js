@@ -1,15 +1,4 @@
-function menuMobile () {
-	var mobileBtn = document.querySelector('.mobile-btn');
-	var menu = document.querySelector('.menu');
-	var closeBtn = document.querySelector('.close');
 
-	mobileBtn.addEventListener('click', function () {
-		menu.className += ' open'; });
-
-	closeBtn.addEventListener('click', function () {
-		menu.className = 'menu ul-menu';
-		});	
-}
 function showImages(el) {
 	var windowHeight = jQuery( window ).height() - (jQuery( window ).height() / 1.3);
 	$(el).each(function(){
@@ -38,8 +27,7 @@ function boxTop(idBox) {
 
 // Verifica se o documento está pronto
 $( document ).ready(function() {
-	menuMobile();
-	showImages('.time-foto');
+	showImages('.zoomIn');
 	
 			// target define os elementos que serão animados. Neste caso todos os que possuirem a classe .anime	
 	var $animeLeft = $('.anime'),
