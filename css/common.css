@@ -124,6 +124,38 @@
 }
 
 
+
+/*AGENDAMENTO*/
+.agendamento {
+  text-align: center;
+  padding: 80px 0;
+  background-image: url(../img/agendamento-bg.jpg); 
+  background-size: cover;
+}
+
+.agendamento-titulo {    
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.agendamento-descricao {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.btn-agendamento {
+  font-size: 1em;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: black;
+  width: 20%;
+  height: 20px;
+  margin: 30px auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
     
 
 /*Rodape*/
