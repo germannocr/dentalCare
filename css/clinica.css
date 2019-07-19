@@ -19,7 +19,7 @@ p, span, a {
     background-image: url("../img/clinica-bg.jpg");
     background-size: cover;
     border-bottom: 2px solid #339989;
-    height: 900px;
+    height: auto;
     color: #F3F4F6;
     text-align: center;
     padding-top: 100px;
@@ -83,4 +83,52 @@ p, span, a {
 
 
 
+/* Larger than mobile */
+@media (max-width: 400px) {
+    .clinica-descricao, .tratamentos {
+        flex-direction: column;
+    }
+
+    .trat-card {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .expertise {
+        margin-bottom: 30px;
+    }
+
+    .btn-agendamento {
+        width: 50%;
+    }
+}
+
+/* Larger than phablet */
+@media (min-width: 401px) and (max-width: 550px) {
+    
+}
+
+
+
+/* Larger than tablet */
+@media (min-width: 551px) and (max-width: 750px) {    
+      
+    
+    .clinica-descricao {
+           flex-direction: column;
+    }
+
+    .expertise {
+           margin-bottom: 25px;
+    }
+}
+/* Larger than desktop */
+@media (min-width: 751px) and (max-width: 1000px) {    
+    
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1001px) {
+    
+}
 
