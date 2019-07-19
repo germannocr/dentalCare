@@ -82,9 +82,8 @@ p, span, a {
 }
 
 
-
-/* Larger than mobile */
-@media (max-width: 400px) {
+/* Larger than phablet */
+@media screen and (max-width: 550px) {
     .clinica-descricao, .tratamentos {
         flex-direction: column;
     }
@@ -98,14 +97,14 @@ p, span, a {
         margin-bottom: 30px;
     }
 
+    .agendamento-titulo {
+        margin-bottom: 10px;
+    }
+
     .btn-agendamento {
         width: 50%;
     }
-}
 
-/* Larger than phablet */
-@media (min-width: 401px) and (max-width: 550px) {
-    
 }
 
 
@@ -113,22 +112,34 @@ p, span, a {
 /* Larger than tablet */
 @media (min-width: 551px) and (max-width: 750px) {    
       
-    
-    .clinica-descricao {
-           flex-direction: column;
+    .clinica-descricao, .tratamentos {
+        flex-direction: column;
     }
 
     .expertise {
-           margin-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    .trat-card {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .btn-agendamento {
+        width: 40%;
     }
 }
 /* Larger than desktop */
 @media (min-width: 751px) and (max-width: 1000px) {    
-    
-}
+   
 
-/* Larger than Desktop HD */
-@media (min-width: 1001px) {
-    
-}
+    .trat-card {
+        width: 45%;
+        
+    }
 
+    .btn-agendamento {
+        width: 40%;
+    }
+
+}
