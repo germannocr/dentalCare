@@ -191,6 +191,9 @@
   .nav-link {
     width: 50%;
     margin: 0 auto;
+  }
+
+  .menu-border {
     border-bottom: 1px solid #14c1f4;
   }
 }
