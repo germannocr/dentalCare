@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <link href="css/reset.css" rel="stylesheet" />
@@ -55,43 +55,102 @@
             <p class="info-descricao">(21) 1234-5678 – (21) 1234-5678</p>
           </div>
           <div class="main-agende">
-              <h2 class="agende-titulo">Agende seu horário</h2>
-              <form class="agendamento-form" >
-                  <label class="agende-label" for="primNome" >Primeiro Nome*: <input required placeholder="Francisco" type="text" id="primNome" class="agende-input"/></label>
-                  
-                  <label class="agende-label" for="segunNome" >Segundo Nome*:<input required placeholder="Correia" type="text" id="segunNome" class="agende-input"/></label>
+            <h2 class="agende-titulo">Agende seu horário</h2>
+            <form class="agendamento-form">
+              <label class="agende-label" for="primNome"
+                >Primeiro Nome*:
+                <input
+                  required
+                  placeholder="Francisco"
+                  type="text"
+                  id="primNome"
+                  class="agende-input"
+              /></label>
 
-                  <label class="agende-label" for="email" >Email*: <input required placeholder="francisco@exemplo.com" type="email" id="email" class="agende-input"/></label>
-                  
-                  <label class="agende-label" for="telefone">Telefone*:<input required placeholder="0000-0000" type="tel" id="telefone" class="agende-input"/></label>
+              <label class="agende-label" for="segunNome"
+                >Segundo Nome*:<input
+                  required
+                  placeholder="Correia"
+                  type="text"
+                  id="segunNome"
+                  class="agende-input"
+              /></label>
 
-                  <label class="agende-label" for="data">Data Desejada*:<input required type="date" id="data" class="agende-input"/></label>
-                  
-                  <label class="agende-label"><span class="horario-span">Horario*:</span> <select class="agende-hora"> 
-                      <option>08</option>
-                      <option>09</option>
-                      <option>10</option>
-                      <option>11</option>
-                      <option>13</option>
-                      <option>14</option>
-                      <option>15</option>
-                      <option>16</option>
-                      <option>17</option>
-                      <option>18</option>
-                  </select> : <select class="agende-hora">
-                      <option>00</option>
-                      <option>30</option>
-                  </select></label>
+              <label class="agende-label" for="email"
+                >Email*:
+                <input
+                  required
+                  placeholder="francisco@exemplo.com"
+                  type="email"
+                  id="email"
+                  class="agende-input"
+              /></label>
 
-                  <label class="agende-label mensagem" for="msg">Mensagem*:<textarea class="agende-input" placeholder="Envie sua mensagem, explicando sua necessidade"></textarea></label>
+              <label class="agende-label" for="telefone"
+                >Telefone*:<input
+                  required
+                  placeholder="0000-0000"
+                  type="tel"
+                  id="telefone"
+                  class="agende-input"
+              /></label>
 
-                  <button type="submit" class="agende-btn">Agendar consulta</button>
-                  
-              </form>
+              <label class="agende-label" for="data"
+                >Data Desejada*:<input
+                  required
+                  type="date"
+                  id="data"
+                  class="agende-input"
+              /></label>
+
+              <label class="agende-label"
+                ><span class="horario-span">Horario*:</span>
+                <select class="agende-hora">
+                  <option>08</option>
+                  <option>09</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                </select>
+                :
+                <select class="agende-hora">
+                  <option>00</option>
+                  <option>30</option>
+                </select></label
+              >
+
+              <label class="agende-label mensagem" for="msg"
+                >Mensagem*:<textarea
+                  class="agende-input"
+                  placeholder="Envie sua mensagem, explicando sua necessidade"
+                ></textarea
+              ></label>
+
+              <button type="submit" class="agende-btn">Agendar consulta</button>
+            </form>
           </div>
         </div>
       </div>
     </main>
+    <section class="mapa">
+      <div class="container">
+        <h2 class="mapa-titulo">Encontre-nos</h2>
+        <span class="mapainfo-titulo">Nosso Endereço</span>
+        <span class="mapainfo-descricao"
+          >Mussum Ipsum, cacilds vidis litro abertis</span
+        >
+        <iframe
+          class="mapa-content"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15899.860818973793!2d-37.992295730224605!3d-4.945436999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b97876b3b2c5c3%3A0x7f135813cf788611!2sDental+Clean+-+Cl%C3%ADnica+Odontol%C3%B3gica!5e0!3m2!1spt-BR!2sbr!4v1563815479421!5m2!1spt-BR!2sbr"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
     <footer class="rodape">
       <div class="container">
         <p class="logo-texto">Dental Care</p>

@@ -38,7 +38,7 @@
     margin-bottom: 20px;
 }
 
-.info-titulo {
+.info-titulo, .mapainfo-titulo{
     font-weight: bold;
     color: #14c1f4;
     margin-top: 20px;
@@ -68,7 +68,9 @@
     height: 35px;
     background-color: #F3F4F6;
     border: 1px solid #C7C8CA;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
 }
 
 .mensagem {
@@ -76,13 +78,39 @@
 }
 
 .agende-btn {
+    display: block;
     width: 25%;
     height: 30px;
-    margin-top: 40px;
     padding: 5px;
     background-color: #14c1f4;
     border: none;
     border-radius: 5px;
     font-weight: bolder;
     cursor: pointer;
+    
 }
+
+.mapa {
+    height: auto;
+    background-color: #F3F4F6;
+    padding-top: 50px;
+}
+
+.mapa-titulo {
+    margin-bottom: 30px;
+}
+
+.mapainfo-descricao {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.mapa-content {
+    width: 80%;
+    height: 300px;
+    display: block;
+    border: 1px solid #14c1f4;
+    margin: 0 auto;
+}
+
