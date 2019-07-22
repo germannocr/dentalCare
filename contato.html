@@ -34,7 +34,7 @@
           <li>
             <a class="nav-link menu-border" href="clinica.html">A Clínica</a>
           </li>
-          <li><a class="nav-link" href="#">Contato</a></li>
+          <li><a class="nav-link" href="contato.html">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -60,6 +60,7 @@
               <label class="agende-label" for="primNome"
                 >Primeiro Nome*:
                 <input
+                  name="primeiro-nome"
                   required
                   placeholder="Francisco"
                   type="text"
@@ -69,6 +70,7 @@
 
               <label class="agende-label" for="segunNome"
                 >Segundo Nome*:<input
+                  name="segundo-nome"
                   required
                   placeholder="Correia"
                   type="text"
@@ -79,6 +81,7 @@
               <label class="agende-label" for="email"
                 >Email*:
                 <input
+                  name="email"
                   required
                   placeholder="francisco@exemplo.com"
                   type="email"
@@ -88,6 +91,7 @@
 
               <label class="agende-label" for="telefone"
                 >Telefone*:<input
+                  name="telefone"
                   required
                   placeholder="0000-0000"
                   type="tel"
@@ -97,6 +101,7 @@
 
               <label class="agende-label" for="data"
                 >Data Desejada*:<input
+                  name="data"
                   required
                   type="date"
                   id="data"
@@ -105,7 +110,7 @@
 
               <label class="agende-label"
                 ><span class="horario-span">Horario*:</span>
-                <select class="agende-hora">
+                <select class="agende-hora" name="hora">
                   <option>08</option>
                   <option>09</option>
                   <option>10</option>
@@ -118,7 +123,7 @@
                   <option>18</option>
                 </select>
                 :
-                <select class="agende-hora">
+                <select class="agende-hora" name="minuto">
                   <option>00</option>
                   <option>30</option>
                 </select></label
@@ -126,6 +131,7 @@
 
               <label class="agende-label mensagem" for="msg"
                 >Mensagem*:<textarea
+                  name="mensagem"
                   class="agende-input"
                   placeholder="Envie sua mensagem, explicando sua necessidade"
                 ></textarea
