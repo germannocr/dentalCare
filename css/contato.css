@@ -114,3 +114,57 @@
     margin: 0 auto;
 }
 
+
+/* Larger than phablet */
+@media screen and (max-width: 550px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-contato, .main-agende {
+        width: 100%;
+    }
+
+    .main-contato {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .main-agende {
+        text-align: center;
+    }
+
+    .agende-input {
+        margin: 10px auto;
+    }
+
+    .agende-label {
+        width: 100%;
+    }
+
+    .agende-btn {
+        width: 50%;
+        margin:auto;
+    }
+
+    .mapa-content {
+        width: 100%;
+    }
+
+
+}
+
+
+
+/* Larger than tablet */
+@media (min-width: 551px) and (max-width: 750px) {    
+      
+   
+}
+/* Larger than desktop */
+@media (min-width: 751px) and (max-width: 1000px) {    
+   
+
+  
+
+}
