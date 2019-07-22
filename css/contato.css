@@ -1,0 +1,88 @@
+/*MAIN*/
+
+.main {
+    text-align: center;
+    margin-top: 80px;
+    height: auto;
+}
+
+.main-titulo {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.main-descricao {
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-contato {
+    width: 40%;
+    text-align: left;
+}
+
+.main-agende {
+    width: 50%;
+    text-align: left;
+}
+
+.contato-titulo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.info-titulo {
+    font-weight: bold;
+    color: #14c1f4;
+    margin-top: 20px;
+}
+
+.agende-label {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+    cursor: pointer;
+}
+
+.horario-span {
+    display: block;
+}
+
+.agende-input {
+    width: 90%;
+    display: block;
+}
+
+.agende-hora {
+    width: 30%;
+}
+
+.agende-input, .agende-hora{
+    height: 35px;
+    background-color: #F3F4F6;
+    border: 1px solid #C7C8CA;
+    margin-top: 10px;
+}
+
+.mensagem {
+    width: 100%;
+}
+
+.agende-btn {
+    width: 25%;
+    height: 30px;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #14c1f4;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}

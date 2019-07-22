@@ -1,0 +1,110 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/contato.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js" rel="script"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <title>Dental Care - Contato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a class="logo" href="index.html">
+          <span class="logo-img">Dental Care</span>
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+          <li><a class="nav-link menu-border" href="index.html">Home</a></li>
+          <li>
+            <a class="nav-link menu-border" href="clinica.html">A Clínica</a>
+          </li>
+          <li><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h1 class="main-titulo">Entre em contato conosco</h1>
+        <p class="main-descricao">
+          Veja como é fácil agendar sua consulta com nosso formulário on-line
+        </p>
+        <div class="main-content">
+          <div class="main-contato">
+            <h2 class="contato-titulo">Informações para contato</h2>
+            <p class="info-titulo">Dúvidas e Sugestões</p>
+            <p class="info-descricao">duvidas@seu_site.com.br</p>
+            <p class="info-titulo">Agendamentos</p>
+            <p class="info-descricao">agendamentos@seu_site.com.br</p>
+            <p class="info-titulo">Atendimento Geral</p>
+            <p class="info-descricao">(21) 1234-5678 – (21) 1234-5678</p>
+          </div>
+          <div class="main-agende">
+              <h2 class="agende-titulo">Agende seu horário</h2>
+              <form class="agendamento-form" >
+                  <label class="agende-label" for="primNome" >Primeiro Nome*: <input required placeholder="Francisco" type="text" id="primNome" class="agende-input"/></label>
+                  
+                  <label class="agende-label" for="segunNome" >Segundo Nome*:<input required placeholder="Correia" type="text" id="segunNome" class="agende-input"/></label>
+
+                  <label class="agende-label" for="email" >Email*: <input required placeholder="francisco@exemplo.com" type="email" id="email" class="agende-input"/></label>
+                  
+                  <label class="agende-label" for="telefone">Telefone*:<input required placeholder="0000-0000" type="tel" id="telefone" class="agende-input"/></label>
+
+                  <label class="agende-label" for="data">Data Desejada*:<input required type="date" id="data" class="agende-input"/></label>
+                  
+                  <label class="agende-label"><span class="horario-span">Horario*:</span> <select class="agende-hora"> 
+                      <option>08</option>
+                      <option>09</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                  </select> : <select class="agende-hora">
+                      <option>00</option>
+                      <option>30</option>
+                  </select></label>
+
+                  <label class="agende-label mensagem" for="msg">Mensagem*:<textarea class="agende-input" placeholder="Envie sua mensagem, explicando sua necessidade"></textarea></label>
+
+                  <button type="submit" class="agende-btn">Agendar consulta</button>
+                  
+              </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="rodape">
+      <div class="container">
+        <p class="logo-texto">Dental Care</p>
+        <p class="rodape-texto">
+          Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo
+          é motivis de denguis.
+        </p>
+        <p class="rodape-texto">
+          Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo
+          é motivis de denguis.
+        </p>
+        <p class="rodape-texto">&copy; Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
