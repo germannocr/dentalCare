@@ -5,9 +5,7 @@ function showImages(el) {
 		var thisPos = $(this).offset().top;
 
 		var topOfWindow = $(window).scrollTop();
-	/*	if (topOfWindow + windowHeight - 200 > thisPos ) {
-			$(this).addClass("fadeIn");
-		}*/
+
 		if (topOfWindow > thisPos - windowHeight) {
 				
 			// caso seja verdadeiro, ele vai adicionar a classe que está em animationClass ao elemento
@@ -39,7 +37,7 @@ $( document ).ready(function() {
 			windowHeight = $(window).height(),
 			
 			// offset é definido a partir da altura da janela, menos um quarto dessa altura. Isso vai garantir que o browser não fique com um espaço grande em branco
-			offset = windowHeight - (windowHeight / 1.4); 
+			offset = windowHeight - (windowHeight / 4); 
 
 	// animeScroll é a função responsável por adicionar a classe animationClass ao elemento da página.
 	function animeScroll() {
