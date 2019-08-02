@@ -51,7 +51,7 @@ p, span, a, label, button {
   padding: 20px 20px;
   text-decoration: none;
   text-align: center;
-  color: #000;
+  color: #15202B;
   font-weight: bold;
 }
 
@@ -175,7 +175,7 @@ p, span, a, label, button {
   display: block;
   text-decoration: none;
   color: #fff;
-  background-color: #000;
+  background-color: #15202B;
   width: 20%;
   height: 20px;
   margin: 30px auto;
@@ -200,7 +200,7 @@ p, span, a, label, button {
 
 .rodape-texto {
     margin: 10px 0;
-    color: #000;
+    color: #15202B;
 }
 
 .logo-texto {

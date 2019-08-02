@@ -23,6 +23,7 @@
 
 .intro-titulo,.intro-subtitulo {
     text-align: center;
+    color: #15202B;
 }
 
 .intro-titulo {
@@ -52,6 +53,7 @@
 .main-titulo, .time-titulo {
     font-size: 1.5em;
     font-weight: bolder;
+    color: #15202B;
 }
 
 .main-descricao, .time-descricao {
@@ -151,9 +153,11 @@
 .agendamento-titulo {    
     font-weight: bold;
     font-size: 1.5em;
+    color: #15202B;
 }
 
 .agendamento-descricao {
+    color: #15202B;
     font-size: 1.2em;
     font-weight: bold;
 }
